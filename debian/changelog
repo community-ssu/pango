@@ -1,3 +1,9 @@
+pango1.0 (1.16.4-1osso3) unstable; urgency=low
+
+  * Enable floating point. Patch by Leonid Moiseichuk. Fixes: NB#61989
+
+ -- Fernando Herrera <fernando.herrera-de-las-heras@nokia.com>  Thu, 30 Aug 2007 17:34:51 +0300
+
 pango1.0 (1.16.4-1osso2) unstable; urgency=low
 
   * Fix packaging to not include .la files
