@@ -1,3 +1,12 @@
+pango1.0 (1.16.4-1osso4) unstable; urgency=low
+
+  *  Updated maintainer in contol file.
+  *  Add a patch backporting upstream fix for gnome bugzilla 462420 (Clicking
+     on pixbuf should move the cursor to the position nearest to the click
+     point. Fixes: #NB64784
+
+ -- Fernando Herrera <fernando.herrera-de-las-heras@nokia.com>  Tue,  4 Sep 2007 15:52:15 +0300
+
 pango1.0 (1.16.4-1osso3) unstable; urgency=low
 
   * Enable floating point. Patch by Leonid Moiseichuk. Fixes: NB#61989

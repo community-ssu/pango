@@ -1,7 +1,7 @@
 Source: pango1.0
 Section: libs
 Priority: optional
-Maintainer: Tapani Palli <tapani.palli@nokia.com>
+Maintainer: Fernando Herrera <fernando.herrera-de-las-heras@nokia.com>
 Build-Depends: debhelper (>= 4.1.16), libfreetype6-dev (>= 2.1.7), libx11-dev | xlibs-dev, libxrender-dev | xlibs-dev, libxt-dev | xlibs-dev, libglib2.0-dev (>= 2.10.0), pkg-config, libxft-dev, libfontconfig1-dev (>= 2.1.91), autotools-dev, po-debconf, gnome-pkg-tools, libcairo2-dev (>= 1.2.2)
 Standards-Version: 3.6.1
 
