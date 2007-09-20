@@ -1,3 +1,9 @@
+pango1.0 (1.16.4-1osso5) unstable; urgency=low
+
+  *  Fix debug packages build. Fixes: NB#70471
+
+ -- Fernando Herrera <fernando.herrera-de-las-heras@nokia.com>  Tue,  20 Sep 2007 18:13:15 +0300
+
 pango1.0 (1.16.4-1osso4) unstable; urgency=low
 
   *  Updated maintainer in contol file.

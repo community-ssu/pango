@@ -319,7 +319,7 @@ binary-arch: build install
 	dh_installinfo -a
 	dh_installchangelogs $(BUILD_DIR)/ChangeLog
 
-	dh_strip -a --dbg-package=libpango$(apiver)-$(soname)-tmp
+	dh_strip -a --dbg-package=libpango$(apiver)-$(soname)
 
 	dh_compress -a -Xindex.sgml
 	dh_fixperms -a
