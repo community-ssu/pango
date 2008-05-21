@@ -1,5 +1,5 @@
---- pango-orig/pango/glyphstring.c	2007-01-23 01:41:43.000000000 +0200
-+++ pango-1.16.4/pango/glyphstring.c	2007-02-27 15:10:54.000000000 +0200
+--- pango-1.20.1.orig/pango/glyphstring.c	2008-01-09 01:08:39.000000000 +0200
++++ pango-1.20.1/pango/glyphstring.c		2008-05-21 09:41:24.000000000 +0300
 @@ -42,6 +42,7 @@
    string->space = 0;
    string->glyphs = NULL;
@@ -17,7 +17,7 @@
    while (new_len > string->space)
      {
        if (string->space == 0)
-@@ -262,8 +265,18 @@
+@@ -271,8 +274,18 @@
  			    PangoRectangle   *ink_rect,
  			    PangoRectangle   *logical_rect)
  {
@@ -38,9 +38,8 @@
  }
  
  /**
-diff -ruN pango-orig/pango/pango-glyph.h pango-1.16.0/pango/pango-glyph.h
---- pango-orig/pango/pango-glyph.h	2002-11-08 21:00:52.000000000 +0200
-+++ pango-1.16.4/pango/pango-glyph.h	2005-03-24 17:15:30.012688332 +0200
+--- pango-1.20.1/pango/pango-glyph.h	2007-07-06 00:30:24.000000000 +0300
++++ pango-1.20.1.patched/pango/pango-glyph.h	2008-05-21 09:41:24.000000000 +0300
 @@ -77,6 +77,10 @@
  
    /*< private >*/
