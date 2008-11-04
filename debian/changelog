@@ -1,5 +1,11 @@
 pango1.0 (1.20.1-1osso1) unstable; urgency=low
 
+  * Adjust font sizes to the platform spec
+
+ -- Christian Dywan <christian@imendio.com>  Tue,  04 Nov 2008 13:08:00 +0100
+
+pango1.0 (1.20.1-1osso1) unstable; urgency=low
+
   * new upstream release
 
  -- Karl Lattimer <karl.lattimer@nokia.com>  Wed,  21 May 2008 09:59:00 +0300
@@ -11,7 +17,7 @@ pango1.0 (1.16.4-1osso5) unstable; urgency=low
 
  -- Fernando Herrera <fernando.herrera-de-las-heras@nokia.com>  Tue,  20 Sep 2007 18:13:15 +0300
 
- pango1.0 (1.16.4-1osso4) unstable; urgency=low
+pango1.0 (1.16.4-1osso4) unstable; urgency=low
 
   *  Updated maintainer in contol file.
   *  Add a patch backporting upstream fix for gnome bugzilla 462420 (Clicking
