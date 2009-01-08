@@ -1,3 +1,9 @@
+pango1.0 (1.20.1-2maemo2) unstable; urgency=low
+
+  * Moved build system to cdbs.
+
+ -- Christian Dywan <christian@imendio.com>  Thu, 08 Nov 2008 13:49:00 +0100
+
 pango1.0 (1.20.1-2maemo1) unstable; urgency=low
 
   * Adjust font sizes to the platform spec
@@ -9,7 +15,6 @@ pango1.0 (1.20.1-1osso1) unstable; urgency=low
   * new upstream release
 
  -- Karl Lattimer <karl.lattimer@nokia.com>  Wed,  21 May 2008 09:59:00 +0300
-
 
 pango1.0 (1.16.4-1osso5) unstable; urgency=low
 

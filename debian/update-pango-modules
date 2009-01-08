@@ -3,7 +3,7 @@
 set -e
 
 TMPFILE=`mktemp /tmp/pango.XXXXXXXXXX`
-defaultver=1.4.0
+defaultver=1.6.0
 
 if [ "x$1" != "x" ]; then
 	VERSION=`echo $1 | sed -e 's/-[A-Za-z0-9\.]*$//' -e 's/+[A-Za-z0-9\.]*$//'`

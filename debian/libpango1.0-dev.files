@@ -1,4 +1,0 @@
-usr/include/*
-usr/lib/lib*.{so,a}
-usr/lib/pkgconfig/*.pc
-usr/lib/pango/*/modules/*.{a}
