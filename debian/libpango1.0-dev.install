@@ -1,7 +1,4 @@
 debian/tmp/usr/include/*
-debian/tmp/usr/lib/lib*.{*a}
+debian/tmp/usr/lib/lib*.{so,a}
 debian/tmp/usr/lib/pkgconfig/*.pc
 debian/tmp/usr/lib/pango/*/modules/*.{a}
-debian/tmp/usr/share/man/man1/pango-querymodules.1
-debian/tmp/usr/bin/pango-querymodules
-debian/tmp/usr/bin/pango-view

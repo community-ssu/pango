@@ -2,11 +2,10 @@
 # postinst script for pango
 #
 # see: dh_installdeb(1)
-/usr/sbin/update-pango-modules
-exit
+
 set -e
 
-. /usr/share/debconf/confmodule
+#. /usr/share/debconf/confmodule
 
 # summary of how this script can be called:
 #        * <postinst> `configure' <most-recently-configured-version>
@@ -68,5 +67,3 @@ esac
 #DEBHELPER#
 
 exit 0
-
-

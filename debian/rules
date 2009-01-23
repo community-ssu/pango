@@ -7,7 +7,6 @@ include /usr/share/cdbs/1/rules/debhelper.mk
 include /usr/share/cdbs/1/class/gnome.mk
 include /usr/share/cdbs/1/rules/tarball.mk
 include /usr/share/cdbs/1/rules/simple-patchsys.mk
-include /usr/share/cdbs/1/rules/debhelper.mk
 
 DEB_CONFIGURE_SCRIPT_ENV += LDFLAGS="-Wl,-O1 -Wl,-z,defs -Wl,--as-needed"
 
@@ -31,3 +30,6 @@ SHLIB_VERSION=1.20.1
 DEB_DH_MAKESHLIBS_ARGS_libpango1.0-0 := -V"libpango1.0-0 (>= $(SHLIB_VERSION))"
 
 DEB_DH_STRIP_ARGS := --dbg-package=libpango1.0-0
+
+install/libpango1.0-common::
+	debian/tmp/usr/bin/pango-querymodules > debian/tmp/etc/pango/pango.modules

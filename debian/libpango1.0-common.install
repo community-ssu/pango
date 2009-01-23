@@ -1,6 +1,6 @@
-debian/tmp/usr/share/defoma/scripts/*
-debian/tmp/etc/defoma/config/*
-debian/tmp/etc/pango/pangox.aliases
-debian/tmp/var/lib/defoma/pango.d/*
+debian/tmp/etc/pango/*
 debian/update-pango-modules usr/sbin
 debian/update-pangox-aliases usr/sbin
+debian/tmp/usr/bin/pango-querymodules
+debian/tmp/usr/bin/pango-view
+debian/tmp/usr/share/man/man1/pango-querymodules.1

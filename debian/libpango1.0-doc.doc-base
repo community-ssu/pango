@@ -8,6 +8,6 @@ Abstract: The Pango internationalized font layout and rendering engine
 Section: Apps/Programming
 
 Format: HTML
-Index: /usr/share/doc/libpango1.0-doc/pango/index.html
-Files: /usr/share/doc/libpango1.0-doc/pango/*.html
+Index: /usr/share/gtk-doc/html/pango/index.html
+Files: /usr/share/gtk-doc/html/pango/*.html
 

@@ -1,4 +1,2 @@
-debian/tmp/usr/lib/lib*.so
 debian/tmp/usr/lib/lib*.so.*
 debian/tmp/usr/lib/pango/*/modules/*.so
-debian/tmp/usr/lib/pango/*/module-files.d/libpango1.0-0.modules
