@@ -32,4 +32,4 @@ DEB_DH_MAKESHLIBS_ARGS_libpango1.0-0 := -V"libpango1.0-0 (>= $(SHLIB_VERSION))"
 DEB_DH_STRIP_ARGS := --dbg-package=libpango1.0-0
 
 install/libpango1.0-common::
-	debian/tmp/usr/bin/pango-querymodules > debian/tmp/etc/pango/pango.modules
+	echo > debian/tmp/etc/pango/pango.modules

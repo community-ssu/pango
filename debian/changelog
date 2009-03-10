@@ -1,3 +1,11 @@
+pango1.0 (1.20.1-2maemo4) unstable; urgency=low
+
+  * properly install the post-install script
+  * create an empty modules file for the package, there's no point in creating
+    one with the modules that the package builder has installed locally
+
+ -- Sven Herzberg <sven@imendio.com>  Mon,  2 Mar 2009 16:06:56 +0100
+
 pango1.0 (1.20.1-2maemo3) unstable; urgency=low
 
   * Revisit where which files belong to fix conflicts
