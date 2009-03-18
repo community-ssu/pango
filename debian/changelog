@@ -4,11 +4,14 @@ pango1.0 (1.20.1-2maemo4) unstable; urgency=low
   * properly install the post-install script
   * create an empty modules file for the package, there's no point in creating
     one with the modules that the package builder has installed locally
+  * delete the shlibs.local file and dropped the extra parameters in
+    debian/rules; fixed this lintian warning
+    package-relation-with-self depends: libpango1.0-0 (>= 1.20.1)
 
   [ Claudio Saavedra ]
   * Fixes: NB#97344 (Update pango packaging)
 
- -- Claudio Saavedra <csaavedra@igalia.com>  Fri, 13 Mar 2009 14:17:55 +0200
+ -- Sven Herzberg <herzi@lanedo.com>  Wed, 18 Mar 2009 09:49:29 +0100
 
 pango1.0 (1.20.1-2maemo3) unstable; urgency=low
 
