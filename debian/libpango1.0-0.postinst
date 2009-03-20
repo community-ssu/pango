@@ -29,7 +29,10 @@ case "$1" in
     configure)
 	/usr/sbin/update-pango-modules
 
-	db_get libpango1.0-common/use_defoma
+        # for some reason this sometimes returns with error 10
+        if ! db_get libpango1.0-common/use_defoma; then
+                RET=false
+        fi
 	if [ "$RET" = "true" ]; then
 		/usr/sbin/update-pangox-aliases
 		if test -f /etc/pango/pangox.aliases && ! test -h /etc/pango/pangox.aliases; then

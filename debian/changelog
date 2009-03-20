@@ -1,3 +1,11 @@
+pango1.0 (1.20.1-2maemo5) unstable; urgency=low
+
+  * make sure the postinst script doesn't crash
+  * added myself to the Maintainer field in the control, so people have
+    chances to poke the right persons
+
+ -- Sven Herzberg <herzi@lanedo.com>  Fri, 20 Mar 2009 09:52:09 +0100
+
 pango1.0 (1.20.1-2maemo4) unstable; urgency=low
 
   [ Sven Herzberg ]
