@@ -23,8 +23,8 @@ ifneq (,$(findstring thumb,$(DEB_BUILD_OPTIONS)))
 endif
 endif
 
-# build static stuff:
-DEB_CONFIGURE_EXTRA_FLAGS := --disable-gtk-doc --enable-static
+# disable docs
+DEB_CONFIGURE_EXTRA_FLAGS := --disable-gtk-doc
 
 DEB_DH_STRIP_ARGS := --dbg-package=libpango1.0-0
 
