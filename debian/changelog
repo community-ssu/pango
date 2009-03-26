@@ -1,8 +1,10 @@
 pango1.0 (1.20.1-2maemo6) unstable; urgency=low
 
   * Disable static build.
+  * Depend on cdbs and remove xlibs-dev from the dependencies.
+  * Move libpango1.0-0 from libpango1.0-dev's 'Suggests:' to 'Depends:'.
 
- -- Claudio Saavedra <csaavedra@igalia.com>  Thu, 26 Mar 2009 17:46:53 +0200
+ -- Claudio Saavedra <csaavedra@igalia.com>  Thu, 26 Mar 2009 18:50:51 +0200
 
 pango1.0 (1.20.1-2maemo5) unstable; urgency=low
 
