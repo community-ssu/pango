@@ -1,0 +1,11 @@
+--- pango-1.24.0/pango/break.c.orig	2009-03-24 12:04:13.761486475 +0100
++++ pango-1.24.0/pango/break.c	2009-03-24 12:04:18.500485060 +0100
+@@ -1076,8 +1076,6 @@
+ 	  switch (break_op)
+ 	    {
+ 	    case BREAK_PROHIBITED:
+-	      /* can't break here */
+-	      attrs[i].is_char_break = FALSE;
+ 	      break;
+ 
+ 	    case BREAK_IF_SPACES:

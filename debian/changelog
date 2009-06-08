@@ -1,3 +1,15 @@
+pango1.0 (1.24.2-0maemo1) unstable; urgency=low
+
+  * Fixes: NB#101990 (PangoFontset leaks memory)
+  * pango-1.20.1.tar.gz,
+  * pango-1.24.2.tar.gz: new upstream version
+  * debian/rules: auto-extract the upstream version from the debian changelog
+  * debian/patches/break-1.20.1.patch,
+  * debian/patches/break-1.24.2.patch: ported the patch to the current pango
+    version
+
+ -- Sven Herzberg <herzi@lanedo.com>  Tue, 24 Mar 2009 11:54:05 +0100
+
 pango1.0 (1.20.1-2maemo6) unstable; urgency=low
 
   * Disable static build.
