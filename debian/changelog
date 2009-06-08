@@ -9,7 +9,7 @@ pango1.0 (1.24.2-0maemo1) unstable; urgency=low
   * debian/patches/break-1.24.2.patch: ported the patch to the current pango
     version
 
- -- Sven Herzberg <herzi@lanedo.com>  Tue, 24 Mar 2009 11:54:05 +0100
+ -- Sven Herzberg <herzi@lanedo.com>  Mon, 08 Jun 2009 12:57:36 +0300
 
 pango1.0 (1.20.1-2maemo6) unstable; urgency=low
 
