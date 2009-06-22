@@ -2,7 +2,7 @@ Source: pango1.0
 Section: libs
 Priority: optional
 Maintainer: Christian Dywan <christian@imendio.com>, Sven Herzberg <sven@lanedo.com>
-Build-Depends: cdbs, debhelper (>= 4.1.16), libfreetype6-dev (>= 2.1.7), libx11-dev, libxrender-dev, libxt-dev, libglib2.0-dev (>= 2.10.0), pkg-config, libxft-dev, libfontconfig1-dev (>= 2.1.91), autotools-dev, po-debconf, gnome-pkg-tools, libcairo2-dev (>= 1.2.2)
+Build-Depends: cdbs, debhelper (>= 4.1.16), libfreetype6-dev (>= 2.1.7), libx11-dev, libxrender-dev, libxt-dev, libglib2.0-dev (>= 2.10.0), pkg-config, libxft-dev, libfontconfig1-dev (>= 2.5.0), autotools-dev, po-debconf, gnome-pkg-tools, libcairo2-dev (>= 1.7.6)
 Standards-Version: 3.6.1
 
 Package: libpango1.0-0
