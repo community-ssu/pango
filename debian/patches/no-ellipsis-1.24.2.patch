@@ -1,0 +1,27 @@
+diff --git a/pango/ellipsize.c b/pango/ellipsize.c
+index 3a39a78..f1574bf 100644
+--- a/pango/ellipsize.c
++++ b/pango/ellipsize.c
+@@ -334,7 +334,9 @@ shape_ellipsis (EllipsizeState *state)
+ 
+   /* First try using a specific ellipsis character in the best matching font
+    */
+-  if (state->ellipsis_is_cjk)
++  if (state->layout->ellipsize != PANGO_ELLIPSIZE_MIDDLE)
++    ellipsis_text = "\342\200\213";	/* U+200B: ZERO WIDTH SPACE */
++  else if (state->ellipsis_is_cjk)
+     ellipsis_text = "\342\213\257";	/* U+22EF: MIDLINE HORIZONTAL ELLIPSIS, used for CJK */
+   else
+     ellipsis_text = "\342\200\246";	/* U+2026: HORIZONTAL ELLIPSIS */
+@@ -353,7 +355,10 @@ shape_ellipsis (EllipsizeState *state)
+        */
+       ((PangoAttrInt *)fallback)->value = TRUE;
+ 
+-      ellipsis_text = "...";
++      if (state->layout->ellipsize != PANGO_ELLIPSIZE_MIDDLE)
++        ellipsis_text = " ";
++      else
++        ellipsis_text = "...";
+       item = itemize_text (state, ellipsis_text, attrs);
+     }
+ 
