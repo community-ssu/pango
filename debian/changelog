@@ -1,3 +1,11 @@
+pango1.0 (1.24.2-0maemo4) unstable; urgency=low
+
+  * Fixes: NB#149142 - Remove doc files from pango deb
+    Exclude all debs except the doc one from installing ChangeLog and
+    docs. Ugly but works.
+
+ -- Michael Natterer <mitch@lanedo.com>  Fri, 08 Jan 2010 13:13:13 +0100
+
 pango1.0 (1.24.2-0maemo3) unstable; urgency=low
 
   * Fixes: NB#110963 Do not display "..." when label is ellipsized

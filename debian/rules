@@ -23,7 +23,17 @@ ifneq (,$(findstring thumb,$(DEB_BUILD_OPTIONS)))
 endif
 endif
 
-# disable docs
+# install docs only into -doc package
+DEB_INSTALL_CHANGELOGS_libpango1.0-0 := --no-act
+DEB_INSTALL_DOCS_libpango1.0-0 := --no-act
+DEB_INSTALL_CHANGELOGS_libpango1.0-common := --no-act
+DEB_INSTALL_DOCS_libpango1.0-common := --no-act
+DEB_INSTALL_CHANGELOGS_libpango1.0-dev := --no-act
+DEB_INSTALL_DOCS_libpango1.0-dev := --no-act
+DEB_INSTALL_CHANGELOGS_libpango1.0-0-dbg := --no-act
+DEB_INSTALL_DOCS_libpango1.0-0-dbg := --no-act
+
+# disable gtk-doc
 DEB_CONFIGURE_EXTRA_FLAGS := --disable-gtk-doc
 
 DEB_DH_STRIP_ARGS := --dbg-package=libpango1.0-0
