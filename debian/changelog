@@ -1,3 +1,13 @@
+pango1.0 (1.24.2-0maemo5) unstable; urgency=low
+
+  * debian/patches/CVE-2010-0421.patch
+  * Fixes: NB#160554 (CVE-2010-0421: improper input sanitization, leading
+    to array indexing error, in the way Pango font rendering library
+    synthesized Glyph Definition Table (GDEF) from the font's character
+    map and the Unicode property database)
+
+ -- Alberto Garcia <agarcia@igalia.com>  Mon, 22 Mar 2010 11:06:30 +0100
+
 pango1.0 (1.24.2-0maemo4) unstable; urgency=low
 
   * Fixes: NB#149142 - Remove doc files from pango deb
