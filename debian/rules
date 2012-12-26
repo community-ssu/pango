@@ -16,11 +16,11 @@ export LINGUAS =
 # Prefer hardware floating point if enabled
 ifneq (,$(findstring vfp,$(DEB_BUILD_OPTIONS)))
 	CFLAGS += -mfpu=vfp -mfloat-abi=softfp
-else
-# Use soft-float and thumb mode if enabled.
+endif
+
+# Use thumb mode if enabled.
 ifneq (,$(findstring thumb,$(DEB_BUILD_OPTIONS)))
 	CFLAGS += -mthumb
-endif
 endif
 
 # install docs only into -doc package
