@@ -1,3 +1,9 @@
+pango1.0 (1.24.2-0maemo5+thumb0) unstable; urgency=low
+
+  * Thumb2 compiled
+
+ -- Ivaylo Dimitrov <freemangordon@abv.bg>  Tue, 26 Dec 2012 16:36:55 +0200
+
 pango1.0 (1.24.2-0maemo5) unstable; urgency=low
 
   * debian/patches/CVE-2010-0421.patch
@@ -163,19 +169,19 @@ pango1.0 (1.14.10-1osso4) unstable; urgency=low
 
 pango1.0 (1.14.7-1osso3) unstable; urgency=low
 
-  * do not pack .la files to dev package 
+  * do not pack .la files to dev package
 
  -- Tapani Palli <tapani.palli@nokia.com>  Wed, 31 Jan 2007 12:52:00 +0200
 
 pango1.0 (1.14.7-1osso2) unstable; urgency=low
 
-  * cleaning up debian/rules, build only shared library 
+  * cleaning up debian/rules, build only shared library
 
  -- Tapani Palli <tapani.palli@nokia.com>  Tue, 23 Jan 2007 14:55:56 +0200
 
 pango1.0 (1.14.7-1osso1) unstable; urgency=low
 
-  * version upgrade to 1.14.7 
+  * version upgrade to 1.14.7
 
  -- Tapani Palli <tapani.palli@nokia.com>  Mon, 30 Oct 2006 10:09:16 +0200
 
@@ -188,26 +194,26 @@ pango1.0 (1.8.1-1osso18) unstable; urgency=low
 pango1.0 (1.8.1-1osso17) unstable; urgency=low
 
   * fix to _really_ have debug symbols ...
-  * Fixes: NB#35625 
+  * Fixes: NB#35625
 
  -- Tapani Palli <tapani.palli@nokia.com>  Fri, 17 Nov 2006 15:55:21 +0200
 
 pango1.0 (1.8.1-1osso16) unstable; urgency=low
 
   * provide debug package containing only symbols (NOBITS)
-  * Fixes: NB#40542 
+  * Fixes: NB#40542
 
  -- Tapani Palli <tapani.palli@nokia.com>  Thu, 21 Sep 2006 16:13:19 +0300
 
 pango1.0 (1.8.1-1osso15) unstable; urgency=low
 
-  * took away one useless patch to configure.ac 
+  * took away one useless patch to configure.ac
 
  -- Tapani Palli <tapani.palli@nokia.com>  Thu, 31 Aug 2006 10:31:18 +0300
 
 pango1.0 (1.8.1-1osso14) unstable; urgency=low
 
-  * disabled all other modules except basic, fixes NB#38278 
+  * disabled all other modules except basic, fixes NB#38278
 
  -- Tapani Palli <tapani.palli@nokia.com>  Thu, 24 Aug 2006 15:46:24 +0300
 
@@ -220,7 +226,7 @@ pango1.0 (1.8.1-1osso13) unstable; urgency=low
 
 pango1.0 (1.8.1-1osso12) unstable; urgency=low
 
-  * enable thumb code generation 
+  * enable thumb code generation
 
  -- Tapani Palli <tapani.palli@nokia.com>  Wed, 24 May 2006 14:05:35 +0300
 
@@ -238,13 +244,13 @@ pango1.0 (1.8.1-1osso10) unstable; urgency=low
 
 pango1.0 (1.8.1-1osso9) unstable; urgency=low
 
-  * change to debian scripts, remove defoma dependency 
+  * change to debian scripts, remove defoma dependency
 
  -- Tapani Palli <tapani.palli@nokia.com>  Wed,  3 May 2006 15:42:23 +0300
 
 pango1.0 (1.8.1-1osso8) unstable; urgency=low
 
-  * fixed glib dependency to 2.10 (because of definitions for unicode) 
+  * fixed glib dependency to 2.10 (because of definitions for unicode)
 
  -- Tapani Palli <tapani.palli@nokia.com>  Wed,  3 May 2006 10:45:28 +0300
 
@@ -257,7 +263,7 @@ pango1.0 (1.8.1-1osso7) unstable; urgency=low
 
 pango1.0 (1.8.1-1osso6) unstable; urgency=low
 
-  * added thumb code generation flags 
+  * added thumb code generation flags
 
  -- Tapani Palli <tapani.palli@nokia.com>  Mon, 24 Apr 2006 13:53:29 +0300
 
@@ -289,7 +295,7 @@ pango1.0 (1.8.1-1osso2) unstable; urgency=low
 
 pango1.0 (1.8.1-1osso1) unstable; urgency=low
 
-  * Integrated glyphstring cache patch 
+  * Integrated glyphstring cache patch
 
  -- Jakub Pavelek <jakub.pavelek@nokia.com>  Thu, 31 Mar 2005 23:56:23 +0300
 
@@ -323,7 +329,7 @@ pango1.0 (1.8.0-1) experimental; urgency=low
   * debian/control.in:
     - updated the Build-Depends.
   * debian/po/cs.po:
-    - Czech translation from Miroslav Kure <kurem@upcase.inf.upol.cz> 
+    - Czech translation from Miroslav Kure <kurem@upcase.inf.upol.cz>
       (Closes: #283224).
   * debian/watch:
     - updated.
@@ -406,7 +412,7 @@ pango1.0 (1.4.0-3) unstable; urgency=low
   * J.H.M. Dassen (Ray) <jdassen@debian.org>:
   + debian/rules: Make the linker work a bit harder so dynamic loading can be
     done faster; safety measure: ensure the build aborts when the library
-    still has references to undefined symbols. 
+    still has references to undefined symbols.
 
  -- Sebastien Bacher <seb128@debian.org>  Sat, 22 May 2004 14:52:43 +0200
 
@@ -430,7 +436,7 @@ pango1.0 (1.4.0-1) experimental; urgency=low
     + removed.
   * debian/patches/001_new_freetype_build_system.patch:
     + removed.
-  * debian/rules:     
+  * debian/rules:
      - don't claim the newer shlibs.
      - updated modules list.
 

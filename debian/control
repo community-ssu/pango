@@ -8,7 +8,7 @@ Standards-Version: 3.6.1
 Package: libpango1.0-0
 Section: libs
 Architecture: any
-Depends: libpango1.0-common (>= ${Source-Version}), ${shlibs:Depends}
+Depends: libpango1.0-common (>= ${Source-Version}), ${shlibs:Depends}, kernel-feature-errata-430973-workaround[armel]
 Description: Layout and rendering of internationalized text
  Pango is a library for layout and rendering of text, with an emphasis
  on internationalization. Pango can be used anywhere that text layout is
@@ -28,7 +28,7 @@ Description: Layout and rendering of internationalized text
 Package: libpango1.0-common
 Section: misc
 Architecture: any
-Depends: debconf, fontconfig (>= 2.1.91), libexpat1
+Depends: debconf, fontconfig (>= 2.1.91), libexpat1, kernel-feature-errata-430973-workaround[armel]
 Recommends: x-ttcidfont-conf
 Suggests: ttf-kochi-gothic, ttf-kochi-mincho, ttf-thryomanes, ttf-baekmuk, ttf-arphic-gbsn00lp, ttf-arphic-bsmi00lp, ttf-arphic-gkai00mp, ttf-arphic-bkai00mp
 Replaces: libpango0, libpango-common (<< 1.0.0)
